@@ -1,0 +1,16 @@
+<Context>
+
+    <Environment name="wai_webcam" value="true" type="java.lang.Boolean" override="false"/>
+    <Environment name="projectPath" value="C:/wai/GitHub/wai_webcam/WebContent" type="java.lang.String" override="false"/>
+    <Environment name="configPath" value="/config" type="java.lang.String" override="false"/>
+
+	<Resource name="jdbc/libraryDB"
+			  auth="Container"
+			  type="javax.sql.DataSource"
+			  driverClassName="org.postgresql.Driver"
+		      url="jdbc:postgresql://141.19.96.94/ss15-gruppe12_DB"
+    		  username="ss15-gruppe12"
+    		  password="Aho6Nob4"
+    		  maxActive="250" maxIdle="5"
+	/>
+</Context>
